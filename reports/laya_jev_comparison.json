@@ -1,0 +1,1136 @@
+{
+  "summary": {
+    "total_questions": 100,
+    "warmup": {
+      "message": "Where is my package right now?",
+      "discarded_results": 1,
+      "description": "First Jev call was excluded from all results and timing metrics."
+    },
+    "jev": {
+      "matched_expected_agent": 97,
+      "average_classification_time_ms": 183.23,
+      "score_above_0_9": 89,
+      "high_confidence_incorrect": 0,
+      "predicted_agent_counts": {
+        "tracking_agent": 11,
+        "quote_agent": 4,
+        "general": 8,
+        "delivery_change_agent": 5,
+        "notifications_agent": 6,
+        "location_finder_agent": 6,
+        "delivery_delay_refund_agent": 6,
+        "external_question_agent": 6,
+        "fee_question_agent": 6,
+        "claims_agent": 6,
+        "escalationagent": 6,
+        "customs_agent": 6,
+        "ieepa_refund": 6,
+        "insureshield_agent": 6,
+        "shipment_refuse_agent": 6,
+        "proof_of_delivery_agent": 6
+      }
+    }
+  },
+  "responses": [
+    {
+      "number": 1,
+      "message": "Where is my package right now?",
+      "expected_agent": "tracking_agent",
+      "jev": {
+        "agent": "tracking_agent",
+        "score": 1.0,
+        "classification_time_ms": 109.9
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 2,
+      "message": "My shipment has not moved in three days.",
+      "expected_agent": "tracking_agent",
+      "jev": {
+        "agent": "tracking_agent",
+        "score": 1.0,
+        "classification_time_ms": 140.15
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 3,
+      "message": "The tracker says delivered but nothing is at my door.",
+      "expected_agent": "tracking_agent",
+      "jev": {
+        "agent": "tracking_agent",
+        "score": 0.93,
+        "classification_time_ms": 131.13
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 4,
+      "message": "I think my parcel was sent to the wrong address.",
+      "expected_agent": "tracking_agent",
+      "jev": {
+        "agent": "tracking_agent",
+        "score": 0.99,
+        "classification_time_ms": 144.01
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 5,
+      "message": "My package appears to be lost in transit.",
+      "expected_agent": "tracking_agent",
+      "jev": {
+        "agent": "tracking_agent",
+        "score": 1.0,
+        "classification_time_ms": 204.15
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 6,
+      "message": "Can I track a shipment using this tracking number?",
+      "expected_agent": "tracking_agent",
+      "jev": {
+        "agent": "tracking_agent",
+        "score": 1.0,
+        "classification_time_ms": 204.46
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 7,
+      "message": "Why is my delivery delayed?",
+      "expected_agent": "tracking_agent",
+      "jev": {
+        "agent": "tracking_agent",
+        "score": 1.0,
+        "classification_time_ms": 206.31
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 8,
+      "message": "My package was marked delivered to my neighbor by mistake.",
+      "expected_agent": "tracking_agent",
+      "jev": {
+        "agent": "tracking_agent",
+        "score": 1.0,
+        "classification_time_ms": 203.0
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 9,
+      "message": "The shipment status has been in transit for a week.",
+      "expected_agent": "tracking_agent",
+      "jev": {
+        "agent": "tracking_agent",
+        "score": 1.0,
+        "classification_time_ms": 114.49
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 10,
+      "message": "Has my parcel arrived at the local facility?",
+      "expected_agent": "tracking_agent",
+      "jev": {
+        "agent": "tracking_agent",
+        "score": 1.0,
+        "classification_time_ms": 193.41
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 11,
+      "message": "What should I do if I missed my delivery?",
+      "expected_agent": "tracking_agent",
+      "jev": {
+        "agent": "tracking_agent",
+        "score": 1.0,
+        "classification_time_ms": 206.06
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 12,
+      "message": "How much does it cost to ship a 10 pound box?",
+      "expected_agent": "quote_agent",
+      "jev": {
+        "agent": "quote_agent",
+        "score": 0.75,
+        "classification_time_ms": 115.76
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 13,
+      "message": "Can you give me a shipping rate from Dallas to Seattle?",
+      "expected_agent": "quote_agent",
+      "jev": {
+        "agent": "quote_agent",
+        "score": 0.99,
+        "classification_time_ms": 130.39
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 14,
+      "message": "What are the prices for overnight shipping?",
+      "expected_agent": "quote_agent",
+      "jev": {
+        "agent": "general",
+        "score": 0.62,
+        "classification_time_ms": 122.32
+      },
+      "jev_matched": false
+    },
+    {
+      "number": 15,
+      "message": "I need a quote for sending documents internationally.",
+      "expected_agent": "quote_agent",
+      "jev": {
+        "agent": "quote_agent",
+        "score": 0.99,
+        "classification_time_ms": 134.85
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 16,
+      "message": "How long and how much will ground shipping cost?",
+      "expected_agent": "quote_agent",
+      "jev": {
+        "agent": "quote_agent",
+        "score": 0.79,
+        "classification_time_ms": 211.27
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 17,
+      "message": "Please estimate the shipping fee for my package.",
+      "expected_agent": "quote_agent",
+      "jev": {
+        "agent": "general",
+        "score": 0.69,
+        "classification_time_ms": 219.39
+      },
+      "jev_matched": false
+    },
+    {
+      "number": 18,
+      "message": "I need to change the delivery address.",
+      "expected_agent": "delivery_change_agent",
+      "jev": {
+        "agent": "delivery_change_agent",
+        "score": 1.0,
+        "classification_time_ms": 143.29
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 19,
+      "message": "Can I reschedule my delivery for Friday?",
+      "expected_agent": "delivery_change_agent",
+      "jev": {
+        "agent": "delivery_change_agent",
+        "score": 1.0,
+        "classification_time_ms": 163.16
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 20,
+      "message": "Please hold my parcel at a UPS location for pickup.",
+      "expected_agent": "delivery_change_agent",
+      "jev": {
+        "agent": "delivery_change_agent",
+        "score": 1.0,
+        "classification_time_ms": 153.69
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 21,
+      "message": "Return this shipment to the sender.",
+      "expected_agent": "delivery_change_agent",
+      "jev": {
+        "agent": "general",
+        "score": 0.69,
+        "classification_time_ms": 151.87
+      },
+      "jev_matched": false
+    },
+    {
+      "number": 22,
+      "message": "Can my package be redelivered to a different address?",
+      "expected_agent": "delivery_change_agent",
+      "jev": {
+        "agent": "delivery_change_agent",
+        "score": 1.0,
+        "classification_time_ms": 122.68
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 23,
+      "message": "I want to upgrade my delivery speed.",
+      "expected_agent": "delivery_change_agent",
+      "jev": {
+        "agent": "delivery_change_agent",
+        "score": 1.0,
+        "classification_time_ms": 170.25
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 24,
+      "message": "How do I get text updates about my package?",
+      "expected_agent": "notifications_agent",
+      "jev": {
+        "agent": "notifications_agent",
+        "score": 0.99,
+        "classification_time_ms": 204.5
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 25,
+      "message": "Sign me up for delivery notifications.",
+      "expected_agent": "notifications_agent",
+      "jev": {
+        "agent": "notifications_agent",
+        "score": 1.0,
+        "classification_time_ms": 205.01
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 26,
+      "message": "I want email alerts when my shipment status changes.",
+      "expected_agent": "notifications_agent",
+      "jev": {
+        "agent": "notifications_agent",
+        "score": 1.0,
+        "classification_time_ms": 195.87
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 27,
+      "message": "Please alert me when the driver is close.",
+      "expected_agent": "notifications_agent",
+      "jev": {
+        "agent": "notifications_agent",
+        "score": 0.83,
+        "classification_time_ms": 116.5
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 28,
+      "message": "Can I receive a notification when my package is delivered?",
+      "expected_agent": "notifications_agent",
+      "jev": {
+        "agent": "notifications_agent",
+        "score": 1.0,
+        "classification_time_ms": 159.36
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 29,
+      "message": "How do I stop shipment-status notifications?",
+      "expected_agent": "notifications_agent",
+      "jev": {
+        "agent": "notifications_agent",
+        "score": 1.0,
+        "classification_time_ms": 244.13
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 30,
+      "message": "Where is the nearest UPS drop-off point?",
+      "expected_agent": "location_finder_agent",
+      "jev": {
+        "agent": "location_finder_agent",
+        "score": 1.0,
+        "classification_time_ms": 204.1
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 31,
+      "message": "Find a UPS Store where I can leave this package.",
+      "expected_agent": "location_finder_agent",
+      "jev": {
+        "agent": "location_finder_agent",
+        "score": 0.99,
+        "classification_time_ms": 122.6
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 32,
+      "message": "Where can I pick up my package near me?",
+      "expected_agent": "location_finder_agent",
+      "jev": {
+        "agent": "location_finder_agent",
+        "score": 0.97,
+        "classification_time_ms": 186.87
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 33,
+      "message": "Locate the closest UPS access point.",
+      "expected_agent": "location_finder_agent",
+      "jev": {
+        "agent": "location_finder_agent",
+        "score": 1.0,
+        "classification_time_ms": 201.56
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 34,
+      "message": "Find a nearby UPS location for package pickup.",
+      "expected_agent": "location_finder_agent",
+      "jev": {
+        "agent": "location_finder_agent",
+        "score": 1.0,
+        "classification_time_ms": 205.15
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 35,
+      "message": "Where can I drop this return package?",
+      "expected_agent": "location_finder_agent",
+      "jev": {
+        "agent": "location_finder_agent",
+        "score": 0.99,
+        "classification_time_ms": 204.17
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 36,
+      "message": "My delivery was late and I need a refund.",
+      "expected_agent": "delivery_delay_refund_agent",
+      "jev": {
+        "agent": "delivery_delay_refund_agent",
+        "score": 1.0,
+        "classification_time_ms": 205.2
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 37,
+      "message": "Can I get reimbursed because my shipment arrived late?",
+      "expected_agent": "delivery_delay_refund_agent",
+      "jev": {
+        "agent": "delivery_delay_refund_agent",
+        "score": 1.0,
+        "classification_time_ms": 205.46
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 38,
+      "message": "I want a refund for a delayed package.",
+      "expected_agent": "delivery_delay_refund_agent",
+      "jev": {
+        "agent": "delivery_delay_refund_agent",
+        "score": 1.0,
+        "classification_time_ms": 209.09
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 39,
+      "message": "A late delivery ruined my event; can I be refunded?",
+      "expected_agent": "delivery_delay_refund_agent",
+      "jev": {
+        "agent": "delivery_delay_refund_agent",
+        "score": 1.0,
+        "classification_time_ms": 198.63
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 40,
+      "message": "My guaranteed shipment arrived after the delivery date; request a refund.",
+      "expected_agent": "delivery_delay_refund_agent",
+      "jev": {
+        "agent": "delivery_delay_refund_agent",
+        "score": 1.0,
+        "classification_time_ms": 206.35
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 41,
+      "message": "How do I claim a refund for a late package?",
+      "expected_agent": "delivery_delay_refund_agent",
+      "jev": {
+        "agent": "delivery_delay_refund_agent",
+        "score": 1.0,
+        "classification_time_ms": 202.21
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 42,
+      "message": "What will the weather be in Chicago tomorrow?",
+      "expected_agent": "external_question_agent",
+      "jev": {
+        "agent": "external_question_agent",
+        "score": 1.0,
+        "classification_time_ms": 206.44
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 43,
+      "message": "How far is Miami from Orlando?",
+      "expected_agent": "external_question_agent",
+      "jev": {
+        "agent": "external_question_agent",
+        "score": 1.0,
+        "classification_time_ms": 203.91
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 44,
+      "message": "What is the distance between New York and Boston?",
+      "expected_agent": "external_question_agent",
+      "jev": {
+        "agent": "external_question_agent",
+        "score": 1.0,
+        "classification_time_ms": 106.58
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 45,
+      "message": "Will snow affect the weather in Denver today?",
+      "expected_agent": "external_question_agent",
+      "jev": {
+        "agent": "external_question_agent",
+        "score": 1.0,
+        "classification_time_ms": 201.35
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 46,
+      "message": "How many miles is Los Angeles from San Diego?",
+      "expected_agent": "external_question_agent",
+      "jev": {
+        "agent": "external_question_agent",
+        "score": 1.0,
+        "classification_time_ms": 229.65
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 47,
+      "message": "What is the forecast for Seattle this weekend?",
+      "expected_agent": "external_question_agent",
+      "jev": {
+        "agent": "external_question_agent",
+        "score": 1.0,
+        "classification_time_ms": 177.24
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 48,
+      "message": "Is there a fee for changing a delivery address?",
+      "expected_agent": "fee_question_agent",
+      "jev": {
+        "agent": "fee_question_agent",
+        "score": 0.95,
+        "classification_time_ms": 204.81
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 49,
+      "message": "Why was I charged an extra delivery fee?",
+      "expected_agent": "fee_question_agent",
+      "jev": {
+        "agent": "fee_question_agent",
+        "score": 1.0,
+        "classification_time_ms": 124.39
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 50,
+      "message": "What fees apply to this shipment?",
+      "expected_agent": "fee_question_agent",
+      "jev": {
+        "agent": "fee_question_agent",
+        "score": 1.0,
+        "classification_time_ms": 182.25
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 51,
+      "message": "Is there a fee to hold a package for pickup?",
+      "expected_agent": "fee_question_agent",
+      "jev": {
+        "agent": "fee_question_agent",
+        "score": 0.99,
+        "classification_time_ms": 150.01
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 52,
+      "message": "Do I need to pay a residential delivery surcharge?",
+      "expected_agent": "fee_question_agent",
+      "jev": {
+        "agent": "fee_question_agent",
+        "score": 1.0,
+        "classification_time_ms": 142.16
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 53,
+      "message": "Can you explain this shipping fee on my bill?",
+      "expected_agent": "fee_question_agent",
+      "jev": {
+        "agent": "fee_question_agent",
+        "score": 1.0,
+        "classification_time_ms": 219.29
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 54,
+      "message": "I need to file a claim for damage.",
+      "expected_agent": "claims_agent",
+      "jev": {
+        "agent": "claims_agent",
+        "score": 1.0,
+        "classification_time_ms": 110.8
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 55,
+      "message": "Please help with claim number C-123456.",
+      "expected_agent": "claims_agent",
+      "jev": {
+        "agent": "claims_agent",
+        "score": 1.0,
+        "classification_time_ms": 160.68
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 56,
+      "message": "What is the status of my lost package claim?",
+      "expected_agent": "claims_agent",
+      "jev": {
+        "agent": "claims_agent",
+        "score": 0.99,
+        "classification_time_ms": 241.31
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 57,
+      "message": "I have a claim number C-9981 to discuss.",
+      "expected_agent": "claims_agent",
+      "jev": {
+        "agent": "claims_agent",
+        "score": 1.0,
+        "classification_time_ms": 113.0
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 58,
+      "message": "How do I submit an insurance claim for my shipment?",
+      "expected_agent": "claims_agent",
+      "jev": {
+        "agent": "claims_agent",
+        "score": 0.98,
+        "classification_time_ms": 192.84
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 59,
+      "message": "My claim C-456789 was denied; what should I do?",
+      "expected_agent": "claims_agent",
+      "jev": {
+        "agent": "claims_agent",
+        "score": 1.0,
+        "classification_time_ms": 204.69
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 60,
+      "message": "Connect me to a live agent.",
+      "expected_agent": "escalationagent",
+      "jev": {
+        "agent": "escalationagent",
+        "score": 0.93,
+        "classification_time_ms": 205.25
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 61,
+      "message": "I want to chat with customer service.",
+      "expected_agent": "escalationagent",
+      "jev": {
+        "agent": "escalationagent",
+        "score": 0.96,
+        "classification_time_ms": 105.54
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 62,
+      "message": "Can I have the customer service phone number?",
+      "expected_agent": "escalationagent",
+      "jev": {
+        "agent": "escalationagent",
+        "score": 0.99,
+        "classification_time_ms": 200.21
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 63,
+      "message": "Please send me an SMS support option.",
+      "expected_agent": "escalationagent",
+      "jev": {
+        "agent": "escalationagent",
+        "score": 0.99,
+        "classification_time_ms": 152.02
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 64,
+      "message": "I want to speak with a representative now.",
+      "expected_agent": "escalationagent",
+      "jev": {
+        "agent": "escalationagent",
+        "score": 0.97,
+        "classification_time_ms": 121.89
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 65,
+      "message": "Start a click-to-call request for me.",
+      "expected_agent": "escalationagent",
+      "jev": {
+        "agent": "escalationagent",
+        "score": 1.0,
+        "classification_time_ms": 148.23
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 66,
+      "message": "Do I owe customs duties on this international shipment?",
+      "expected_agent": "customs_agent",
+      "jev": {
+        "agent": "customs_agent",
+        "score": 0.99,
+        "classification_time_ms": 191.73
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 67,
+      "message": "Why is there an outstanding import balance?",
+      "expected_agent": "customs_agent",
+      "jev": {
+        "agent": "customs_agent",
+        "score": 1.0,
+        "classification_time_ms": 204.89
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 68,
+      "message": "How do I request a CBP reimbursement?",
+      "expected_agent": "customs_agent",
+      "jev": {
+        "agent": "customs_agent",
+        "score": 1.0,
+        "classification_time_ms": 204.01
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 69,
+      "message": "Explain the IOR refund process.",
+      "expected_agent": "customs_agent",
+      "jev": {
+        "agent": "customs_agent",
+        "score": 0.99,
+        "classification_time_ms": 207.17
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 70,
+      "message": "Why is my import tariff so high?",
+      "expected_agent": "customs_agent",
+      "jev": {
+        "agent": "customs_agent",
+        "score": 0.93,
+        "classification_time_ms": 202.37
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 71,
+      "message": "What is the CAPE platform refund process?",
+      "expected_agent": "customs_agent",
+      "jev": {
+        "agent": "customs_agent",
+        "score": 0.99,
+        "classification_time_ms": 206.5
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 72,
+      "message": "I need an IEEPA tariff refund.",
+      "expected_agent": "ieepa_refund",
+      "jev": {
+        "agent": "ieepa_refund",
+        "score": 1.0,
+        "classification_time_ms": 222.24
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 73,
+      "message": "Can you request an IEEPA refund for me?",
+      "expected_agent": "ieepa_refund",
+      "jev": {
+        "agent": "ieepa_refund",
+        "score": 1.0,
+        "classification_time_ms": 185.36
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 74,
+      "message": "How do I apply for a reciprocal tariff refund?",
+      "expected_agent": "ieepa_refund",
+      "jev": {
+        "agent": "ieepa_refund",
+        "score": 1.0,
+        "classification_time_ms": 207.33
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 75,
+      "message": "I want an executive order tariff refund.",
+      "expected_agent": "ieepa_refund",
+      "jev": {
+        "agent": "ieepa_refund",
+        "score": 1.0,
+        "classification_time_ms": 202.19
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 76,
+      "message": "Can I get a refund for an IEEPA duty charge?",
+      "expected_agent": "ieepa_refund",
+      "jev": {
+        "agent": "ieepa_refund",
+        "score": 1.0,
+        "classification_time_ms": 188.32
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 77,
+      "message": "Help me obtain an IEEPA import refund.",
+      "expected_agent": "ieepa_refund",
+      "jev": {
+        "agent": "ieepa_refund",
+        "score": 1.0,
+        "classification_time_ms": 135.81
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 78,
+      "message": "I have questions about my InsureShield coverage.",
+      "expected_agent": "insureshield_agent",
+      "jev": {
+        "agent": "insureshield_agent",
+        "score": 1.0,
+        "classification_time_ms": 120.93
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 79,
+      "message": "How does InsureShield protect my shipment?",
+      "expected_agent": "insureshield_agent",
+      "jev": {
+        "agent": "insureshield_agent",
+        "score": 1.0,
+        "classification_time_ms": 173.44
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 80,
+      "message": "Can I buy InsureShield for a package?",
+      "expected_agent": "insureshield_agent",
+      "jev": {
+        "agent": "insureshield_agent",
+        "score": 1.0,
+        "classification_time_ms": 302.42
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 81,
+      "message": "What does InsureShield cover when a parcel is damaged?",
+      "expected_agent": "insureshield_agent",
+      "jev": {
+        "agent": "insureshield_agent",
+        "score": 1.0,
+        "classification_time_ms": 207.65
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 82,
+      "message": "How do I submit an InsureShield claim?",
+      "expected_agent": "insureshield_agent",
+      "jev": {
+        "agent": "insureshield_agent",
+        "score": 0.88,
+        "classification_time_ms": 202.72
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 83,
+      "message": "Is InsureShield available for international shipping?",
+      "expected_agent": "insureshield_agent",
+      "jev": {
+        "agent": "insureshield_agent",
+        "score": 0.99,
+        "classification_time_ms": 202.33
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 84,
+      "message": "I want to refuse delivery of this package.",
+      "expected_agent": "shipment_refuse_agent",
+      "jev": {
+        "agent": "shipment_refuse_agent",
+        "score": 1.0,
+        "classification_time_ms": 205.78
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 85,
+      "message": "Can I reject a shipment that is coming to me?",
+      "expected_agent": "shipment_refuse_agent",
+      "jev": {
+        "agent": "shipment_refuse_agent",
+        "score": 1.0,
+        "classification_time_ms": 131.43
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 86,
+      "message": "How do I refuse a package at my door?",
+      "expected_agent": "shipment_refuse_agent",
+      "jev": {
+        "agent": "shipment_refuse_agent",
+        "score": 1.0,
+        "classification_time_ms": 125.55
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 87,
+      "message": "Please stop this package and send it back.",
+      "expected_agent": "shipment_refuse_agent",
+      "jev": {
+        "agent": "shipment_refuse_agent",
+        "score": 1.0,
+        "classification_time_ms": 151.22
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 88,
+      "message": "Can the sender receive my refused shipment?",
+      "expected_agent": "shipment_refuse_agent",
+      "jev": {
+        "agent": "shipment_refuse_agent",
+        "score": 0.95,
+        "classification_time_ms": 204.54
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 89,
+      "message": "I do not want to accept this parcel.",
+      "expected_agent": "shipment_refuse_agent",
+      "jev": {
+        "agent": "shipment_refuse_agent",
+        "score": 1.0,
+        "classification_time_ms": 205.6
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 90,
+      "message": "I need proof that my package was delivered.",
+      "expected_agent": "proof_of_delivery_agent",
+      "jev": {
+        "agent": "proof_of_delivery_agent",
+        "score": 1.0,
+        "classification_time_ms": 203.02
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 91,
+      "message": "Can I get a proof of delivery document?",
+      "expected_agent": "proof_of_delivery_agent",
+      "jev": {
+        "agent": "proof_of_delivery_agent",
+        "score": 1.0,
+        "classification_time_ms": 204.67
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 92,
+      "message": "I need delivery confirmation for my order.",
+      "expected_agent": "proof_of_delivery_agent",
+      "jev": {
+        "agent": "proof_of_delivery_agent",
+        "score": 1.0,
+        "classification_time_ms": 131.28
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 93,
+      "message": "I need a delivery receipt signed by the recipient.",
+      "expected_agent": "proof_of_delivery_agent",
+      "jev": {
+        "agent": "proof_of_delivery_agent",
+        "score": 1.0,
+        "classification_time_ms": 381.02
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 94,
+      "message": "Can you provide a POD for this shipment?",
+      "expected_agent": "proof_of_delivery_agent",
+      "jev": {
+        "agent": "proof_of_delivery_agent",
+        "score": 1.0,
+        "classification_time_ms": 204.4
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 95,
+      "message": "Who signed for my delivered package?",
+      "expected_agent": "proof_of_delivery_agent",
+      "jev": {
+        "agent": "proof_of_delivery_agent",
+        "score": 0.98,
+        "classification_time_ms": 203.98
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 96,
+      "message": "How can I cancel a shipment before it goes out?",
+      "expected_agent": "general",
+      "jev": {
+        "agent": "general",
+        "score": 0.74,
+        "classification_time_ms": 239.57
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 97,
+      "message": "I need help with a delivery issue that does not fit these options.",
+      "expected_agent": "general",
+      "jev": {
+        "agent": "general",
+        "score": 0.75,
+        "classification_time_ms": 169.47
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 98,
+      "message": "What services does UPS offer?",
+      "expected_agent": "general",
+      "jev": {
+        "agent": "general",
+        "score": 0.8,
+        "classification_time_ms": 308.46
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 99,
+      "message": "Tell me about UPS business solutions.",
+      "expected_agent": "general",
+      "jev": {
+        "agent": "general",
+        "score": 0.95,
+        "classification_time_ms": 204.15
+      },
+      "jev_matched": true
+    },
+    {
+      "number": 100,
+      "message": "What are the UPS holiday hours?",
+      "expected_agent": "general",
+      "jev": {
+        "agent": "general",
+        "score": 0.85,
+        "classification_time_ms": 203.93
+      },
+      "jev_matched": true
+    }
+  ]
+}

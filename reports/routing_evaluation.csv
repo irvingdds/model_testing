@@ -1,0 +1,101 @@
+message,agent_name,confidence_score,classification_time_ms,analysis
+Where is my package right now?,tracking_agent,1.0,15204.24,Matched the expected agent: tracking_agent.
+My shipment has not moved in three days.,tracking_agent,1.0,859.02,Matched the expected agent: tracking_agent.
+The tracker says delivered but nothing is at my door.,tracking_agent,1.0,766.41,Matched the expected agent: tracking_agent.
+I think my parcel was sent to the wrong address.,tracking_agent,1.0,1071.02,Matched the expected agent: tracking_agent.
+My package appears to be lost in transit.,tracking_agent,1.0,1151.38,Matched the expected agent: tracking_agent.
+Can I track a shipment using this tracking number?,tracking_agent,1.0,1138.99,Matched the expected agent: tracking_agent.
+Why is my delivery delayed?,tracking_agent,0.9981,1169.56,Matched the expected agent: tracking_agent.
+My package was marked delivered to my neighbor by mistake.,tracking_agent,0.9777,1167.95,Matched the expected agent: tracking_agent.
+The shipment status has been in transit for a week.,tracking_agent,1.0,1169.5,Matched the expected agent: tracking_agent.
+Has my parcel arrived at the local facility?,tracking_agent,1.0,1128.84,Matched the expected agent: tracking_agent.
+How much does it cost to ship a 10 pound box?,quote_agent,0.9603,1199.44,Matched the expected agent: quote_agent.
+Can you give me a shipping rate from Dallas to Seattle?,quote_agent,0.9881,1091.91,Matched the expected agent: quote_agent.
+What are the prices for overnight shipping?,quote_agent,0.9661,1182.43,Matched the expected agent: quote_agent.
+I need a quote for sending documents internationally.,quote_agent,0.9975,1104.48,Matched the expected agent: quote_agent.
+How long and how much will ground shipping cost?,quote_agent,0.9574,1181.78,Matched the expected agent: quote_agent.
+Please estimate the shipping fee for my package.,quote_agent,0.9577,1223.35,Matched the expected agent: quote_agent.
+I need to change the delivery address.,delivery_change_agent,1.0,1201.22,Matched the expected agent: delivery_change_agent.
+Can I reschedule my delivery for Friday?,delivery_delay_refund_agent,0.8275,1224.3,"Expected delivery_change_agent, but Laya selected delivery_delay_refund_agent."
+Please hold my parcel at a UPS location for pickup.,location_finder_agent,0.5718,1199.26,"Expected delivery_change_agent, but Laya selected location_finder_agent."
+Return this shipment to the sender.,shipment_refuse_agent,0.995,1254.05,"Expected delivery_change_agent, but Laya selected shipment_refuse_agent."
+Can my package be redelivered to a different address?,delivery_change_agent,0.999,1251.87,Matched the expected agent: delivery_change_agent.
+I want to upgrade my delivery speed.,delivery_delay_refund_agent,0.5836,1234.42,"Expected delivery_change_agent, but Laya selected delivery_delay_refund_agent."
+How do I get text updates about my package?,tracking_agent,0.9996,1148.15,"Expected notifications_agent, but Laya selected tracking_agent."
+Sign me up for delivery notifications.,notifications_agent,1.0,1135.71,Matched the expected agent: notifications_agent.
+I want email alerts when my shipment status changes.,tracking_agent,1.0,1105.22,"Expected notifications_agent, but Laya selected tracking_agent."
+Please alert me when the driver is close.,tracking_agent,0.9999,1233.44,"Expected notifications_agent, but Laya selected tracking_agent."
+Can I receive a notification when my package is delivered?,notifications_agent,1.0,1118.06,Matched the expected agent: notifications_agent.
+How do I stop shipment-status notifications?,notifications_agent,1.0,1123.18,Matched the expected agent: notifications_agent.
+Where is the nearest UPS drop-off point?,location_finder_agent,1.0,1156.54,Matched the expected agent: location_finder_agent.
+Find a UPS Store where I can leave this package.,location_finder_agent,1.0,1168.39,Matched the expected agent: location_finder_agent.
+Where can I pick up my package near me?,tracking_agent,0.784,1204.52,"Expected location_finder_agent, but Laya selected tracking_agent."
+Locate the closest UPS access point.,location_finder_agent,1.0,1134.67,Matched the expected agent: location_finder_agent.
+Find a nearby UPS location for package pickup.,location_finder_agent,1.0,1140.29,Matched the expected agent: location_finder_agent.
+Where can I drop this return package?,tracking_agent,0.9259,1169.57,"Expected location_finder_agent, but Laya selected tracking_agent."
+My delivery was late and I need a refund.,delivery_delay_refund_agent,1.0,1106.82,Matched the expected agent: delivery_delay_refund_agent.
+Can I get reimbursed because my shipment arrived late?,delivery_delay_refund_agent,0.9986,1154.23,Matched the expected agent: delivery_delay_refund_agent.
+I want a refund for a delayed package.,delivery_delay_refund_agent,1.0,1129.74,Matched the expected agent: delivery_delay_refund_agent.
+A late delivery ruined my event; can I be refunded?,delivery_delay_refund_agent,1.0,1149.89,Matched the expected agent: delivery_delay_refund_agent.
+My guaranteed shipment arrived after the delivery date; request a refund.,delivery_delay_refund_agent,1.0,1166.96,Matched the expected agent: delivery_delay_refund_agent.
+How do I claim a refund for a late package?,delivery_delay_refund_agent,0.9985,1153.18,Matched the expected agent: delivery_delay_refund_agent.
+What will the weather be in Chicago tomorrow?,general,0.7309,1178.4,"Expected external_question_agent, but Laya selected general."
+How far is Miami from Orlando?,general,0.396,1213.88,"Expected external_question_agent, but Laya selected general."
+What is the distance between New York and Boston?,general,0.486,1191.28,"Expected external_question_agent, but Laya selected general."
+Will snow affect the weather in Denver today?,general,0.7551,1179.79,"Expected external_question_agent, but Laya selected general."
+How many miles is Los Angeles from San Diego?,external_question_agent,0.4974,1238.38,Matched the expected agent: external_question_agent.
+What is the forecast for Seattle this weekend?,general,0.7016,1240.97,"Expected external_question_agent, but Laya selected general."
+Is there a fee for changing a delivery address?,delivery_change_agent,0.9507,1226.49,"Expected fee_question_agent, but Laya selected delivery_change_agent."
+Why was I charged an extra delivery fee?,fee_question_agent,0.5257,1257.55,Matched the expected agent: fee_question_agent.
+What fees apply to this shipment?,fee_question_agent,1.0,1196.48,Matched the expected agent: fee_question_agent.
+Is there a fee to hold a package for pickup?,fee_question_agent,1.0,1142.67,Matched the expected agent: fee_question_agent.
+Do I need to pay a residential delivery surcharge?,ieepa_refund,0.9905,1168.45,"Expected fee_question_agent, but Laya selected ieepa_refund."
+Can you explain this shipping fee on my bill?,fee_question_agent,0.9997,1084.44,Matched the expected agent: fee_question_agent.
+I need to file a claim for damage.,claims_agent,1.0,1154.72,Matched the expected agent: claims_agent.
+Please help with claim number C-123456.,claims_agent,1.0,1112.71,Matched the expected agent: claims_agent.
+What is the status of my lost package claim?,tracking_agent,0.9975,1149.81,"Expected claims_agent, but Laya selected tracking_agent."
+I have a claim number C-9981 to discuss.,claims_agent,1.0,1194.66,Matched the expected agent: claims_agent.
+How do I submit an insurance claim for my shipment?,claims_agent,1.0,1265.32,Matched the expected agent: claims_agent.
+My claim C-456789 was denied; what should I do?,claims_agent,1.0,1137.54,Matched the expected agent: claims_agent.
+Connect me to a live agent.,escalationagent,0.4979,1160.17,Matched the expected agent: escalationagent.
+I want to chat with customer service.,general,0.9808,1200.67,"Expected escalationagent, but Laya selected general."
+Can I have the customer service phone number?,insureshield_agent,0.4453,1093.39,"Expected escalationagent, but Laya selected insureshield_agent."
+Please send me an SMS support option.,notifications_agent,0.6537,1178.79,"Expected escalationagent, but Laya selected notifications_agent."
+I want to speak with a representative now.,general,0.2437,1135.73,"Expected escalationagent, but Laya selected general."
+Start a click-to-call request for me.,general,0.4959,1238.58,"Expected escalationagent, but Laya selected general."
+Do I owe customs duties on this international shipment?,customs_agent,1.0,1074.68,Matched the expected agent: customs_agent.
+Why is there an outstanding import balance?,tracking_agent,0.567,1131.54,"Expected customs_agent, but Laya selected tracking_agent."
+How do I request a CBP reimbursement?,customs_agent,0.9923,1111.13,Matched the expected agent: customs_agent.
+Explain the IOR refund process.,delivery_delay_refund_agent,0.996,1160.47,"Expected customs_agent, but Laya selected delivery_delay_refund_agent."
+Why is my import tariff so high?,customs_agent,0.9994,1169.68,Matched the expected agent: customs_agent.
+What is the CAPE platform refund process?,delivery_delay_refund_agent,0.9997,1237.89,"Expected customs_agent, but Laya selected delivery_delay_refund_agent."
+I need an IEEPA tariff refund.,ieepa_refund,1.0,1298.66,Matched the expected agent: ieepa_refund.
+Can you request an IEEPA refund for me?,ieepa_refund,0.927,1237.17,Matched the expected agent: ieepa_refund.
+How do I apply for a reciprocal tariff refund?,ieepa_refund,0.9995,1373.03,Matched the expected agent: ieepa_refund.
+I want an executive order tariff refund.,ieepa_refund,1.0,1260.77,Matched the expected agent: ieepa_refund.
+Can I get a refund for an IEEPA duty charge?,ieepa_refund,0.9999,1184.06,Matched the expected agent: ieepa_refund.
+Help me obtain an IEEPA import refund.,ieepa_refund,0.9564,1151.52,Matched the expected agent: ieepa_refund.
+I have questions about my InsureShield coverage.,insureshield_agent,0.9997,1208.45,Matched the expected agent: insureshield_agent.
+How does InsureShield protect my shipment?,insureshield_agent,0.9988,1144.49,Matched the expected agent: insureshield_agent.
+Can I buy InsureShield for a package?,insureshield_agent,1.0,1164.14,Matched the expected agent: insureshield_agent.
+What does InsureShield cover when a parcel is damaged?,insureshield_agent,0.9956,1154.8,Matched the expected agent: insureshield_agent.
+How do I submit an InsureShield claim?,claims_agent,0.9993,1151.09,"Expected insureshield_agent, but Laya selected claims_agent."
+Is InsureShield available for international shipping?,insureshield_agent,0.9981,1185.33,Matched the expected agent: insureshield_agent.
+I want to refuse delivery of this package.,shipment_refuse_agent,1.0,1128.03,Matched the expected agent: shipment_refuse_agent.
+Can I reject a shipment that is coming to me?,shipment_refuse_agent,1.0,1144.02,Matched the expected agent: shipment_refuse_agent.
+How do I refuse a package at my door?,shipment_refuse_agent,1.0,1216.03,Matched the expected agent: shipment_refuse_agent.
+Please stop this package and send it back.,shipment_refuse_agent,0.7148,1107.04,Matched the expected agent: shipment_refuse_agent.
+Can the sender receive my refused shipment?,shipment_refuse_agent,1.0,1079.26,Matched the expected agent: shipment_refuse_agent.
+I do not want to accept this parcel.,shipment_refuse_agent,1.0,1131.68,Matched the expected agent: shipment_refuse_agent.
+I need proof that my package was delivered.,proof_of_delivery_agent,0.9999,1113.05,Matched the expected agent: proof_of_delivery_agent.
+Can I get a proof of delivery document?,proof_of_delivery_agent,1.0,1143.84,Matched the expected agent: proof_of_delivery_agent.
+I need delivery confirmation for my order.,proof_of_delivery_agent,0.9998,1073.58,Matched the expected agent: proof_of_delivery_agent.
+I need a delivery receipt signed by the recipient.,proof_of_delivery_agent,0.9988,1151.41,Matched the expected agent: proof_of_delivery_agent.
+Can you provide a POD for this shipment?,proof_of_delivery_agent,1.0,1082.6,Matched the expected agent: proof_of_delivery_agent.
+Who signed for my delivered package?,proof_of_delivery_agent,1.0,1087.45,Matched the expected agent: proof_of_delivery_agent.
+How can I cancel a shipment before it goes out?,shipment_refuse_agent,0.9967,1131.47,"Expected general, but Laya selected shipment_refuse_agent."
+What should I do if I missed my delivery?,tracking_agent,0.7682,1216.22,"Expected general, but Laya selected tracking_agent."
+I need help with a delivery issue that does not fit these options.,tracking_agent,0.6375,1246.72,"Expected general, but Laya selected tracking_agent."
+What services does UPS offer?,quote_agent,0.3945,1181.74,"Expected general, but Laya selected quote_agent."
+Tell me about UPS business solutions.,general,0.6044,1247.75,Matched the expected agent: general.
+What are the UPS holiday hours?,external_question_agent,0.3119,1322.04,"Expected general, but Laya selected external_question_agent."

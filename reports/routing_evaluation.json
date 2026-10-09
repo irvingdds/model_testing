@@ -1,0 +1,1127 @@
+{
+  "summary": {
+    "total_questions": 100,
+    "matched_expected_agent": 69,
+    "average_classification_time_ms": 1304.18,
+    "predicted_agent_counts": {
+      "tracking_agent": 19,
+      "quote_agent": 7,
+      "delivery_change_agent": 3,
+      "delivery_delay_refund_agent": 10,
+      "location_finder_agent": 5,
+      "shipment_refuse_agent": 8,
+      "notifications_agent": 4,
+      "general": 9,
+      "external_question_agent": 2,
+      "fee_question_agent": 4,
+      "ieepa_refund": 7,
+      "claims_agent": 6,
+      "escalationagent": 1,
+      "insureshield_agent": 6,
+      "customs_agent": 3,
+      "proof_of_delivery_agent": 6
+    }
+  },
+  "responses": [
+    {
+      "number": 1,
+      "expected_agent": "tracking_agent",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Where is my package right now?",
+        "tracking_agent": 1.0,
+        "classification_time_ms": 15204.24
+      }
+    },
+    {
+      "number": 2,
+      "expected_agent": "tracking_agent",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "My shipment has not moved in three days.",
+        "tracking_agent": 1.0,
+        "classification_time_ms": 859.02
+      }
+    },
+    {
+      "number": 3,
+      "expected_agent": "tracking_agent",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "The tracker says delivered but nothing is at my door.",
+        "tracking_agent": 1.0,
+        "classification_time_ms": 766.41
+      }
+    },
+    {
+      "number": 4,
+      "expected_agent": "tracking_agent",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "I think my parcel was sent to the wrong address.",
+        "tracking_agent": 1.0,
+        "classification_time_ms": 1071.02
+      }
+    },
+    {
+      "number": 5,
+      "expected_agent": "tracking_agent",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "My package appears to be lost in transit.",
+        "tracking_agent": 1.0,
+        "classification_time_ms": 1151.38
+      }
+    },
+    {
+      "number": 6,
+      "expected_agent": "tracking_agent",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Can I track a shipment using this tracking number?",
+        "tracking_agent": 1.0,
+        "classification_time_ms": 1138.99
+      }
+    },
+    {
+      "number": 7,
+      "expected_agent": "tracking_agent",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Why is my delivery delayed?",
+        "tracking_agent": 0.9981,
+        "classification_time_ms": 1169.56
+      }
+    },
+    {
+      "number": 8,
+      "expected_agent": "tracking_agent",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "My package was marked delivered to my neighbor by mistake.",
+        "tracking_agent": 0.9777,
+        "classification_time_ms": 1167.95
+      }
+    },
+    {
+      "number": 9,
+      "expected_agent": "tracking_agent",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "The shipment status has been in transit for a week.",
+        "tracking_agent": 1.0,
+        "classification_time_ms": 1169.5
+      }
+    },
+    {
+      "number": 10,
+      "expected_agent": "tracking_agent",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Has my parcel arrived at the local facility?",
+        "tracking_agent": 1.0,
+        "classification_time_ms": 1128.84
+      }
+    },
+    {
+      "number": 11,
+      "expected_agent": "quote_agent",
+      "predicted_agent": "quote_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "How much does it cost to ship a 10 pound box?",
+        "quote_agent": 0.9603,
+        "classification_time_ms": 1199.44
+      }
+    },
+    {
+      "number": 12,
+      "expected_agent": "quote_agent",
+      "predicted_agent": "quote_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Can you give me a shipping rate from Dallas to Seattle?",
+        "quote_agent": 0.9881,
+        "classification_time_ms": 1091.91
+      }
+    },
+    {
+      "number": 13,
+      "expected_agent": "quote_agent",
+      "predicted_agent": "quote_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "What are the prices for overnight shipping?",
+        "quote_agent": 0.9661,
+        "classification_time_ms": 1182.43
+      }
+    },
+    {
+      "number": 14,
+      "expected_agent": "quote_agent",
+      "predicted_agent": "quote_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "I need a quote for sending documents internationally.",
+        "quote_agent": 0.9975,
+        "classification_time_ms": 1104.48
+      }
+    },
+    {
+      "number": 15,
+      "expected_agent": "quote_agent",
+      "predicted_agent": "quote_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "How long and how much will ground shipping cost?",
+        "quote_agent": 0.9574,
+        "classification_time_ms": 1181.78
+      }
+    },
+    {
+      "number": 16,
+      "expected_agent": "quote_agent",
+      "predicted_agent": "quote_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Please estimate the shipping fee for my package.",
+        "quote_agent": 0.9577,
+        "classification_time_ms": 1223.35
+      }
+    },
+    {
+      "number": 17,
+      "expected_agent": "delivery_change_agent",
+      "predicted_agent": "delivery_change_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "I need to change the delivery address.",
+        "delivery_change_agent": 1.0,
+        "classification_time_ms": 1201.22
+      }
+    },
+    {
+      "number": 18,
+      "expected_agent": "delivery_change_agent",
+      "predicted_agent": "delivery_delay_refund_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "Can I reschedule my delivery for Friday?",
+        "delivery_delay_refund_agent": 0.8275,
+        "classification_time_ms": 1224.3
+      }
+    },
+    {
+      "number": 19,
+      "expected_agent": "delivery_change_agent",
+      "predicted_agent": "location_finder_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "Please hold my parcel at a UPS location for pickup.",
+        "location_finder_agent": 0.5718,
+        "classification_time_ms": 1199.26
+      }
+    },
+    {
+      "number": 20,
+      "expected_agent": "delivery_change_agent",
+      "predicted_agent": "shipment_refuse_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "Return this shipment to the sender.",
+        "shipment_refuse_agent": 0.995,
+        "classification_time_ms": 1254.05
+      }
+    },
+    {
+      "number": 21,
+      "expected_agent": "delivery_change_agent",
+      "predicted_agent": "delivery_change_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Can my package be redelivered to a different address?",
+        "delivery_change_agent": 0.999,
+        "classification_time_ms": 1251.87
+      }
+    },
+    {
+      "number": 22,
+      "expected_agent": "delivery_change_agent",
+      "predicted_agent": "delivery_delay_refund_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "I want to upgrade my delivery speed.",
+        "delivery_delay_refund_agent": 0.5836,
+        "classification_time_ms": 1234.42
+      }
+    },
+    {
+      "number": 23,
+      "expected_agent": "notifications_agent",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "How do I get text updates about my package?",
+        "tracking_agent": 0.9996,
+        "classification_time_ms": 1148.15
+      }
+    },
+    {
+      "number": 24,
+      "expected_agent": "notifications_agent",
+      "predicted_agent": "notifications_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Sign me up for delivery notifications.",
+        "notifications_agent": 1.0,
+        "classification_time_ms": 1135.71
+      }
+    },
+    {
+      "number": 25,
+      "expected_agent": "notifications_agent",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "I want email alerts when my shipment status changes.",
+        "tracking_agent": 1.0,
+        "classification_time_ms": 1105.22
+      }
+    },
+    {
+      "number": 26,
+      "expected_agent": "notifications_agent",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "Please alert me when the driver is close.",
+        "tracking_agent": 0.9999,
+        "classification_time_ms": 1233.44
+      }
+    },
+    {
+      "number": 27,
+      "expected_agent": "notifications_agent",
+      "predicted_agent": "notifications_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Can I receive a notification when my package is delivered?",
+        "notifications_agent": 1.0,
+        "classification_time_ms": 1118.06
+      }
+    },
+    {
+      "number": 28,
+      "expected_agent": "notifications_agent",
+      "predicted_agent": "notifications_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "How do I stop shipment-status notifications?",
+        "notifications_agent": 1.0,
+        "classification_time_ms": 1123.18
+      }
+    },
+    {
+      "number": 29,
+      "expected_agent": "location_finder_agent",
+      "predicted_agent": "location_finder_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Where is the nearest UPS drop-off point?",
+        "location_finder_agent": 1.0,
+        "classification_time_ms": 1156.54
+      }
+    },
+    {
+      "number": 30,
+      "expected_agent": "location_finder_agent",
+      "predicted_agent": "location_finder_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Find a UPS Store where I can leave this package.",
+        "location_finder_agent": 1.0,
+        "classification_time_ms": 1168.39
+      }
+    },
+    {
+      "number": 31,
+      "expected_agent": "location_finder_agent",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "Where can I pick up my package near me?",
+        "tracking_agent": 0.784,
+        "classification_time_ms": 1204.52
+      }
+    },
+    {
+      "number": 32,
+      "expected_agent": "location_finder_agent",
+      "predicted_agent": "location_finder_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Locate the closest UPS access point.",
+        "location_finder_agent": 1.0,
+        "classification_time_ms": 1134.67
+      }
+    },
+    {
+      "number": 33,
+      "expected_agent": "location_finder_agent",
+      "predicted_agent": "location_finder_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Find a nearby UPS location for package pickup.",
+        "location_finder_agent": 1.0,
+        "classification_time_ms": 1140.29
+      }
+    },
+    {
+      "number": 34,
+      "expected_agent": "location_finder_agent",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "Where can I drop this return package?",
+        "tracking_agent": 0.9259,
+        "classification_time_ms": 1169.57
+      }
+    },
+    {
+      "number": 35,
+      "expected_agent": "delivery_delay_refund_agent",
+      "predicted_agent": "delivery_delay_refund_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "My delivery was late and I need a refund.",
+        "delivery_delay_refund_agent": 1.0,
+        "classification_time_ms": 1106.82
+      }
+    },
+    {
+      "number": 36,
+      "expected_agent": "delivery_delay_refund_agent",
+      "predicted_agent": "delivery_delay_refund_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Can I get reimbursed because my shipment arrived late?",
+        "delivery_delay_refund_agent": 0.9986,
+        "classification_time_ms": 1154.23
+      }
+    },
+    {
+      "number": 37,
+      "expected_agent": "delivery_delay_refund_agent",
+      "predicted_agent": "delivery_delay_refund_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "I want a refund for a delayed package.",
+        "delivery_delay_refund_agent": 1.0,
+        "classification_time_ms": 1129.74
+      }
+    },
+    {
+      "number": 38,
+      "expected_agent": "delivery_delay_refund_agent",
+      "predicted_agent": "delivery_delay_refund_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "A late delivery ruined my event; can I be refunded?",
+        "delivery_delay_refund_agent": 1.0,
+        "classification_time_ms": 1149.89
+      }
+    },
+    {
+      "number": 39,
+      "expected_agent": "delivery_delay_refund_agent",
+      "predicted_agent": "delivery_delay_refund_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "My guaranteed shipment arrived after the delivery date; request a refund.",
+        "delivery_delay_refund_agent": 1.0,
+        "classification_time_ms": 1166.96
+      }
+    },
+    {
+      "number": 40,
+      "expected_agent": "delivery_delay_refund_agent",
+      "predicted_agent": "delivery_delay_refund_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "How do I claim a refund for a late package?",
+        "delivery_delay_refund_agent": 0.9985,
+        "classification_time_ms": 1153.18
+      }
+    },
+    {
+      "number": 41,
+      "expected_agent": "external_question_agent",
+      "predicted_agent": "general",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "What will the weather be in Chicago tomorrow?",
+        "general": 0.7309,
+        "classification_time_ms": 1178.4
+      }
+    },
+    {
+      "number": 42,
+      "expected_agent": "external_question_agent",
+      "predicted_agent": "general",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "How far is Miami from Orlando?",
+        "general": 0.396,
+        "classification_time_ms": 1213.88
+      }
+    },
+    {
+      "number": 43,
+      "expected_agent": "external_question_agent",
+      "predicted_agent": "general",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "What is the distance between New York and Boston?",
+        "general": 0.486,
+        "classification_time_ms": 1191.28
+      }
+    },
+    {
+      "number": 44,
+      "expected_agent": "external_question_agent",
+      "predicted_agent": "general",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "Will snow affect the weather in Denver today?",
+        "general": 0.7551,
+        "classification_time_ms": 1179.79
+      }
+    },
+    {
+      "number": 45,
+      "expected_agent": "external_question_agent",
+      "predicted_agent": "external_question_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "How many miles is Los Angeles from San Diego?",
+        "external_question_agent": 0.4974,
+        "classification_time_ms": 1238.38
+      }
+    },
+    {
+      "number": 46,
+      "expected_agent": "external_question_agent",
+      "predicted_agent": "general",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "What is the forecast for Seattle this weekend?",
+        "general": 0.7016,
+        "classification_time_ms": 1240.97
+      }
+    },
+    {
+      "number": 47,
+      "expected_agent": "fee_question_agent",
+      "predicted_agent": "delivery_change_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "Is there a fee for changing a delivery address?",
+        "delivery_change_agent": 0.9507,
+        "classification_time_ms": 1226.49
+      }
+    },
+    {
+      "number": 48,
+      "expected_agent": "fee_question_agent",
+      "predicted_agent": "fee_question_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Why was I charged an extra delivery fee?",
+        "fee_question_agent": 0.5257,
+        "classification_time_ms": 1257.55
+      }
+    },
+    {
+      "number": 49,
+      "expected_agent": "fee_question_agent",
+      "predicted_agent": "fee_question_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "What fees apply to this shipment?",
+        "fee_question_agent": 1.0,
+        "classification_time_ms": 1196.48
+      }
+    },
+    {
+      "number": 50,
+      "expected_agent": "fee_question_agent",
+      "predicted_agent": "fee_question_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Is there a fee to hold a package for pickup?",
+        "fee_question_agent": 1.0,
+        "classification_time_ms": 1142.67
+      }
+    },
+    {
+      "number": 51,
+      "expected_agent": "fee_question_agent",
+      "predicted_agent": "ieepa_refund",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "Do I need to pay a residential delivery surcharge?",
+        "ieepa_refund": 0.9905,
+        "classification_time_ms": 1168.45
+      }
+    },
+    {
+      "number": 52,
+      "expected_agent": "fee_question_agent",
+      "predicted_agent": "fee_question_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Can you explain this shipping fee on my bill?",
+        "fee_question_agent": 0.9997,
+        "classification_time_ms": 1084.44
+      }
+    },
+    {
+      "number": 53,
+      "expected_agent": "claims_agent",
+      "predicted_agent": "claims_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "I need to file a claim for damage.",
+        "claims_agent": 1.0,
+        "classification_time_ms": 1154.72
+      }
+    },
+    {
+      "number": 54,
+      "expected_agent": "claims_agent",
+      "predicted_agent": "claims_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Please help with claim number C-123456.",
+        "claims_agent": 1.0,
+        "classification_time_ms": 1112.71
+      }
+    },
+    {
+      "number": 55,
+      "expected_agent": "claims_agent",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "What is the status of my lost package claim?",
+        "tracking_agent": 0.9975,
+        "classification_time_ms": 1149.81
+      }
+    },
+    {
+      "number": 56,
+      "expected_agent": "claims_agent",
+      "predicted_agent": "claims_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "I have a claim number C-9981 to discuss.",
+        "claims_agent": 1.0,
+        "classification_time_ms": 1194.66
+      }
+    },
+    {
+      "number": 57,
+      "expected_agent": "claims_agent",
+      "predicted_agent": "claims_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "How do I submit an insurance claim for my shipment?",
+        "claims_agent": 1.0,
+        "classification_time_ms": 1265.32
+      }
+    },
+    {
+      "number": 58,
+      "expected_agent": "claims_agent",
+      "predicted_agent": "claims_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "My claim C-456789 was denied; what should I do?",
+        "claims_agent": 1.0,
+        "classification_time_ms": 1137.54
+      }
+    },
+    {
+      "number": 59,
+      "expected_agent": "escalationagent",
+      "predicted_agent": "escalationagent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Connect me to a live agent.",
+        "escalationagent": 0.4979,
+        "classification_time_ms": 1160.17
+      }
+    },
+    {
+      "number": 60,
+      "expected_agent": "escalationagent",
+      "predicted_agent": "general",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "I want to chat with customer service.",
+        "general": 0.9808,
+        "classification_time_ms": 1200.67
+      }
+    },
+    {
+      "number": 61,
+      "expected_agent": "escalationagent",
+      "predicted_agent": "insureshield_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "Can I have the customer service phone number?",
+        "insureshield_agent": 0.4453,
+        "classification_time_ms": 1093.39
+      }
+    },
+    {
+      "number": 62,
+      "expected_agent": "escalationagent",
+      "predicted_agent": "notifications_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "Please send me an SMS support option.",
+        "notifications_agent": 0.6537,
+        "classification_time_ms": 1178.79
+      }
+    },
+    {
+      "number": 63,
+      "expected_agent": "escalationagent",
+      "predicted_agent": "general",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "I want to speak with a representative now.",
+        "general": 0.2437,
+        "classification_time_ms": 1135.73
+      }
+    },
+    {
+      "number": 64,
+      "expected_agent": "escalationagent",
+      "predicted_agent": "general",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "Start a click-to-call request for me.",
+        "general": 0.4959,
+        "classification_time_ms": 1238.58
+      }
+    },
+    {
+      "number": 65,
+      "expected_agent": "customs_agent",
+      "predicted_agent": "customs_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Do I owe customs duties on this international shipment?",
+        "customs_agent": 1.0,
+        "classification_time_ms": 1074.68
+      }
+    },
+    {
+      "number": 66,
+      "expected_agent": "customs_agent",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "Why is there an outstanding import balance?",
+        "tracking_agent": 0.567,
+        "classification_time_ms": 1131.54
+      }
+    },
+    {
+      "number": 67,
+      "expected_agent": "customs_agent",
+      "predicted_agent": "customs_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "How do I request a CBP reimbursement?",
+        "customs_agent": 0.9923,
+        "classification_time_ms": 1111.13
+      }
+    },
+    {
+      "number": 68,
+      "expected_agent": "customs_agent",
+      "predicted_agent": "delivery_delay_refund_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "Explain the IOR refund process.",
+        "delivery_delay_refund_agent": 0.996,
+        "classification_time_ms": 1160.47
+      }
+    },
+    {
+      "number": 69,
+      "expected_agent": "customs_agent",
+      "predicted_agent": "customs_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Why is my import tariff so high?",
+        "customs_agent": 0.9994,
+        "classification_time_ms": 1169.68
+      }
+    },
+    {
+      "number": 70,
+      "expected_agent": "customs_agent",
+      "predicted_agent": "delivery_delay_refund_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "What is the CAPE platform refund process?",
+        "delivery_delay_refund_agent": 0.9997,
+        "classification_time_ms": 1237.89
+      }
+    },
+    {
+      "number": 71,
+      "expected_agent": "ieepa_refund",
+      "predicted_agent": "ieepa_refund",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "I need an IEEPA tariff refund.",
+        "ieepa_refund": 1.0,
+        "classification_time_ms": 1298.66
+      }
+    },
+    {
+      "number": 72,
+      "expected_agent": "ieepa_refund",
+      "predicted_agent": "ieepa_refund",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Can you request an IEEPA refund for me?",
+        "ieepa_refund": 0.927,
+        "classification_time_ms": 1237.17
+      }
+    },
+    {
+      "number": 73,
+      "expected_agent": "ieepa_refund",
+      "predicted_agent": "ieepa_refund",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "How do I apply for a reciprocal tariff refund?",
+        "ieepa_refund": 0.9995,
+        "classification_time_ms": 1373.03
+      }
+    },
+    {
+      "number": 74,
+      "expected_agent": "ieepa_refund",
+      "predicted_agent": "ieepa_refund",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "I want an executive order tariff refund.",
+        "ieepa_refund": 1.0,
+        "classification_time_ms": 1260.77
+      }
+    },
+    {
+      "number": 75,
+      "expected_agent": "ieepa_refund",
+      "predicted_agent": "ieepa_refund",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Can I get a refund for an IEEPA duty charge?",
+        "ieepa_refund": 0.9999,
+        "classification_time_ms": 1184.06
+      }
+    },
+    {
+      "number": 76,
+      "expected_agent": "ieepa_refund",
+      "predicted_agent": "ieepa_refund",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Help me obtain an IEEPA import refund.",
+        "ieepa_refund": 0.9564,
+        "classification_time_ms": 1151.52
+      }
+    },
+    {
+      "number": 77,
+      "expected_agent": "insureshield_agent",
+      "predicted_agent": "insureshield_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "I have questions about my InsureShield coverage.",
+        "insureshield_agent": 0.9997,
+        "classification_time_ms": 1208.45
+      }
+    },
+    {
+      "number": 78,
+      "expected_agent": "insureshield_agent",
+      "predicted_agent": "insureshield_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "How does InsureShield protect my shipment?",
+        "insureshield_agent": 0.9988,
+        "classification_time_ms": 1144.49
+      }
+    },
+    {
+      "number": 79,
+      "expected_agent": "insureshield_agent",
+      "predicted_agent": "insureshield_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Can I buy InsureShield for a package?",
+        "insureshield_agent": 1.0,
+        "classification_time_ms": 1164.14
+      }
+    },
+    {
+      "number": 80,
+      "expected_agent": "insureshield_agent",
+      "predicted_agent": "insureshield_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "What does InsureShield cover when a parcel is damaged?",
+        "insureshield_agent": 0.9956,
+        "classification_time_ms": 1154.8
+      }
+    },
+    {
+      "number": 81,
+      "expected_agent": "insureshield_agent",
+      "predicted_agent": "claims_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "How do I submit an InsureShield claim?",
+        "claims_agent": 0.9993,
+        "classification_time_ms": 1151.09
+      }
+    },
+    {
+      "number": 82,
+      "expected_agent": "insureshield_agent",
+      "predicted_agent": "insureshield_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Is InsureShield available for international shipping?",
+        "insureshield_agent": 0.9981,
+        "classification_time_ms": 1185.33
+      }
+    },
+    {
+      "number": 83,
+      "expected_agent": "shipment_refuse_agent",
+      "predicted_agent": "shipment_refuse_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "I want to refuse delivery of this package.",
+        "shipment_refuse_agent": 1.0,
+        "classification_time_ms": 1128.03
+      }
+    },
+    {
+      "number": 84,
+      "expected_agent": "shipment_refuse_agent",
+      "predicted_agent": "shipment_refuse_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Can I reject a shipment that is coming to me?",
+        "shipment_refuse_agent": 1.0,
+        "classification_time_ms": 1144.02
+      }
+    },
+    {
+      "number": 85,
+      "expected_agent": "shipment_refuse_agent",
+      "predicted_agent": "shipment_refuse_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "How do I refuse a package at my door?",
+        "shipment_refuse_agent": 1.0,
+        "classification_time_ms": 1216.03
+      }
+    },
+    {
+      "number": 86,
+      "expected_agent": "shipment_refuse_agent",
+      "predicted_agent": "shipment_refuse_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Please stop this package and send it back.",
+        "shipment_refuse_agent": 0.7148,
+        "classification_time_ms": 1107.04
+      }
+    },
+    {
+      "number": 87,
+      "expected_agent": "shipment_refuse_agent",
+      "predicted_agent": "shipment_refuse_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Can the sender receive my refused shipment?",
+        "shipment_refuse_agent": 1.0,
+        "classification_time_ms": 1079.26
+      }
+    },
+    {
+      "number": 88,
+      "expected_agent": "shipment_refuse_agent",
+      "predicted_agent": "shipment_refuse_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "I do not want to accept this parcel.",
+        "shipment_refuse_agent": 1.0,
+        "classification_time_ms": 1131.68
+      }
+    },
+    {
+      "number": 89,
+      "expected_agent": "proof_of_delivery_agent",
+      "predicted_agent": "proof_of_delivery_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "I need proof that my package was delivered.",
+        "proof_of_delivery_agent": 0.9999,
+        "classification_time_ms": 1113.05
+      }
+    },
+    {
+      "number": 90,
+      "expected_agent": "proof_of_delivery_agent",
+      "predicted_agent": "proof_of_delivery_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Can I get a proof of delivery document?",
+        "proof_of_delivery_agent": 1.0,
+        "classification_time_ms": 1143.84
+      }
+    },
+    {
+      "number": 91,
+      "expected_agent": "proof_of_delivery_agent",
+      "predicted_agent": "proof_of_delivery_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "I need delivery confirmation for my order.",
+        "proof_of_delivery_agent": 0.9998,
+        "classification_time_ms": 1073.58
+      }
+    },
+    {
+      "number": 92,
+      "expected_agent": "proof_of_delivery_agent",
+      "predicted_agent": "proof_of_delivery_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "I need a delivery receipt signed by the recipient.",
+        "proof_of_delivery_agent": 0.9988,
+        "classification_time_ms": 1151.41
+      }
+    },
+    {
+      "number": 93,
+      "expected_agent": "proof_of_delivery_agent",
+      "predicted_agent": "proof_of_delivery_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Can you provide a POD for this shipment?",
+        "proof_of_delivery_agent": 1.0,
+        "classification_time_ms": 1082.6
+      }
+    },
+    {
+      "number": 94,
+      "expected_agent": "proof_of_delivery_agent",
+      "predicted_agent": "proof_of_delivery_agent",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Who signed for my delivered package?",
+        "proof_of_delivery_agent": 1.0,
+        "classification_time_ms": 1087.45
+      }
+    },
+    {
+      "number": 95,
+      "expected_agent": "general",
+      "predicted_agent": "shipment_refuse_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "How can I cancel a shipment before it goes out?",
+        "shipment_refuse_agent": 0.9967,
+        "classification_time_ms": 1131.47
+      }
+    },
+    {
+      "number": 96,
+      "expected_agent": "general",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "What should I do if I missed my delivery?",
+        "tracking_agent": 0.7682,
+        "classification_time_ms": 1216.22
+      }
+    },
+    {
+      "number": 97,
+      "expected_agent": "general",
+      "predicted_agent": "tracking_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "I need help with a delivery issue that does not fit these options.",
+        "tracking_agent": 0.6375,
+        "classification_time_ms": 1246.72
+      }
+    },
+    {
+      "number": 98,
+      "expected_agent": "general",
+      "predicted_agent": "quote_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "What services does UPS offer?",
+        "quote_agent": 0.3945,
+        "classification_time_ms": 1181.74
+      }
+    },
+    {
+      "number": 99,
+      "expected_agent": "general",
+      "predicted_agent": "general",
+      "matched_expected_agent": true,
+      "resp": {
+        "message": "Tell me about UPS business solutions.",
+        "general": 0.6044,
+        "classification_time_ms": 1247.75
+      }
+    },
+    {
+      "number": 100,
+      "expected_agent": "general",
+      "predicted_agent": "external_question_agent",
+      "matched_expected_agent": false,
+      "resp": {
+        "message": "What are the UPS holiday hours?",
+        "external_question_agent": 0.3119,
+        "classification_time_ms": 1322.04
+      }
+    }
+  ]
+}
